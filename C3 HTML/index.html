@@ -1,106 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Mi página web</title>
-    </head>
-    <body>
 
-        <header>
-            <h1>Mi primer sitio web </h1>
-            <p>Mi nombre es Omar Villalobos.</p>
+<head>
+    <title>Mi página web</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
 
-            <span>HOME</span>
-            <span>NOTICIAS</span>
-            <span>CLIMA</span>
-        </header>
+<body class="fondo">
+    <header>
 
-        <main>
+        <div id="titulos">
+            <h1 class="title" id="principal">PRIMEROS ESTILOS CON CSS</h1>
+            <p class="miTexto"> Esta es mi página web y le dare estilos.</p>
+        </div>
 
-            <img src="./Noticias.webp" alt="">
-            <section>
-                <h2>Este es el titulo de una sección de noticias</h2>    
-            
-                <article>    
-            
-                    <h3>Esta es la noticia N 1</h3>
+    </header>
 
-                        <div>
-                            <p>Este será el primer párrafo de mi noticia y es una noticia muy importante</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur accusamus vitae magnam quod maxime error blanditiis, architecto alias adipisci non voluptatem voluptates eligendi aut odit debitis hic quam sed!</p>
-                        </div> 
+    <header>
+        <h1 class="title">Mi primer sitio web </h1>
+        <p>Mi nombre es Omar Villalobos.</p>
 
-                </article>
-            <hr />
-                <article>
-                    <h3>Esta es la noticia N 2</h3>
-                        <div>
-                            <p>Este es un listado de cosas importantes para esta noticia</p>
-                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum magni maiores dolorum nostrum molestias. Ut ipsum enim dolore accusamus maiores eveniet nemo officiis officia qui, possimus corrupti impedit omnis recusandae.</p>
-                        </div>
-            <ol>
-                <li>Este es el item </li>
-                <li>Este es el item </li>
-                <li>Este es el item </li>
-            </ol>
-                </article>
-            <hr />
-                <article>
-                        
-                        <h3>Esta es la noticia N 3</h3>
-                        <div>
-                            <p>Este lsitado de cosas importantes no estará ordenado</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem incidunt vitae, facilis a in eligendi labore dolore quos esse error expedita fugiat nam pariatur soluta vel nesciunt provident molestiae?</p>
-                        </div>
-            
-            <ul>
+        <span>HOME</span>
+        <span>NOTICIAS</span>
+        <span>CLIMA</span>
+    </header>
 
-            
-                <li>Este es un elemento</li>
-                <li>Este es un elemento adicional</li>
-                <li>Este es otro elemento adicional</li>
+    <main>
 
-            </ul>
-                </article>
-            <hr />
+        <article>
+            <div id="cards-container">
 
-            </section>
+            <div class="cards">
+                <h2 class="tittle"> NOTICIAS</h2>
+                <img src="./Noticias.webp" class="fotos" />
+            </div>
 
-            <section>
-                <article>
-        <h2>Este es el titulo de una sección de deportes</h2>
-                        
-                        <h3>Este puede ser el titulo de una nota de esta sección</h3>
-            
-                </article>
-
-            </section>  
-        <hr />
-
-            <section>
-                <article>
-        <h2>Este es el titulo de una sección de espectaculos</h2>
-                        
-                        <h3>Este puede ser el titulo de una nota de esta sección</h3>
-                        
-                </article>
-
-            </section>
-            <hr />
-        
-        </main>
-
-        <footer>
-            <p>
-                Este es el footer de mi página, Ahora voy a poner unos enlaces
-            </p>
-            <a href="./contacto.html">Formulario de contacto</a>
-            <span>Enlace 2 </span>
-            <span>Enlace 3 </span>
-
-            
-        </footer>
+            <div class="cards">
+                <h2 class="tittle"> DEPORTES EXTREMOS</h2>
+                <img src="./deportes-extremos-mundo_DZ.jpg" class="fotos" />
+            </div>
 
 
-            
-    </body>
+            <div class="cards">
+                <h2 class="tittle"> ESPECTACULOS</h2>
+                <img src="./Cirque-du-Soleil-2.jpg" class="fotos" />
+            </div>
+
+            </div>  
+        </article>
+
+    </main>
+
+    <footer>
+        <p>
+            Este es el footer de mi página, Ahora voy a poner unos enlaces
+        </p>
+        <a href="./contacto.html">Formulario de contacto</a>
+        <span>Enlace 2 </span>
+        <span>Enlace 3 </span>
+
+
+    </footer>
+
+
+
+</body>
+
 </html>
