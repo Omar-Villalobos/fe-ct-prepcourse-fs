@@ -6,6 +6,10 @@ function sonIguales(x, y) {
   // 5, 5 ---> true 
   // 5, 8 ---> false 
   // Tu código:
+  return x === y;
 }
 
 module.exports = sonIguales;
+console.log(sonIguales(5, 5));   // true
+console.log(sonIguales(5, 8));   // false
+console.log(sonIguales('5', 5)); // false (debido a que compara tipos estrictamente)

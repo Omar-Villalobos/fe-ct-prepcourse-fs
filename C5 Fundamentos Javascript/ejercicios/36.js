@@ -3,6 +3,10 @@
 function numeroRandom() {
   // La función numeroRandom debe generar un número al azar entre 0 y 1 y retornarlo.
   // Tu código:
+  return Math.random ();
 }
 
 module.exports = numeroRandom;
+
+console.log(numeroRandom());  // Un número aleatorio entre 0 y 1
+console.log(numeroRandom());  // Un número aleatorio entre 0 y 1

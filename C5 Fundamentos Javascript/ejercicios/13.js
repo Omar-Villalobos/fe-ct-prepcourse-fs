@@ -6,6 +6,12 @@ function menosQueNoventa(num) {
   // 50 ---> true
   // 91 ---> false
   // Tu código:
+  return num < 90;
 }
 
 module.exports = menosQueNoventa;
+console.log(menosQueNoventa(50));  // true
+console.log(menosQueNoventa(91));  // false
+console.log(menosQueNoventa(89));  // true
+
+
